@@ -23,18 +23,22 @@
     border-radius: 10px;
     padding: 10px;
 }
+.like:hover,
+.delete:hover {
+    transform: scale(1.04);
+}
 .like svg,
 .delete svg {
     /*fill: #909090;*/
     fill: none;
-    stroke: black;
+    stroke: #191919;
 }
-.like:hover svg,
+/*.like:hover svg,
 .delete:hover svg {
+    stroke: #545454;
     transform: scale(1.2);
-}
+}*/
 .like:active svg {
     fill: #ed0919;
     stroke: #ed0919;
 }
-.info {}

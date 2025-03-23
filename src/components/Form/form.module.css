@@ -1,0 +1,29 @@
+.form {
+    border: 1px solid #949494;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    border: 1px solid #949494;
+    border-radius: 5px;
+    padding: 10px;
+    outline-color: #7560ff;
+}
+
+.series,
+button {
+    width: max-content;
+}
+.file {
+    border: none;
+    width: max-content;
+}
