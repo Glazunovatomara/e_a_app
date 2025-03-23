@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    padding-bottom: 2rem;
+    gap: 1rem;
+    justify-content: end;
+}
+
+.search svg,
+.like svg {
+    fill: none;
+    stroke:#949494;
+    cursor: pointer;
+}
+.search:hover  svg,
+.like:hover svg {
+    transform: scale(1.2);
+}

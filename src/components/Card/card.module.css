@@ -1,0 +1,40 @@
+.card {
+    cursor: pointer;
+}
+.img_section {
+    position:relative;
+}
+.img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+}
+.active_section {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.like,
+.delete {
+    display: flex;
+    background: #ffffff6b;
+    border-radius: 10px;
+    padding: 10px;
+}
+.like svg,
+.delete svg {
+    /*fill: #909090;*/
+    fill: none;
+    stroke: black;
+}
+.like:hover svg,
+.delete:hover svg {
+    transform: scale(1.2);
+}
+.like:active svg {
+    fill: #ed0919;
+    stroke: #ed0919;
+}
+.info {}
